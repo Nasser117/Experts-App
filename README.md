@@ -34,8 +34,9 @@ As my introductory project, the focus was on mastering the core pillars of Flutt
 ## 📂 Project Structure
 ```text
 lib/
-├── models/           # Dart classes for Expert and Field data
-├── screens/          # Main UI Pages (Home, Expert List, Booking)
-├── widgets/          # Reusable UI components (Expert Cards, Category Tiles)
-├── data/             # Mock data for testing the UI
-└── main.dart         # App entry and route configuration
+├── controller/       # Business logic and navigation handling
+├── middleware/       # Routing guards (e.g., Auth checks or Redirection)
+├── model/            # Data structures and expert/field classes
+├── utils/            # Helper functions, themes, and constants
+├── view/             # UI screens and page layouts
+└── main.dart         # App entry and initialization
